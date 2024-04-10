@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+
+<table>
+    <% for(let i=0;i<scientists.length;i++) { %>
+    <tr>
+        <td><a href="scientists/<%=scientists[i].id%>"><%=scientists[i].name%></a></td>
+        <td><%=scientists[i].birthDate%></td>
+        <td><%=scientists[i].passingDate%></td>
+        <td><%=scientists[i].nationality%></td>
+        
+    </tr>
+    <% } %>
+</table>
+
+
+<%- include('partials/footer') %>

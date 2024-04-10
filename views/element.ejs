@@ -1,0 +1,15 @@
+<%-include('partials/header')%>
+
+<p><%=element.name%></p>
+<p><%=element.description%></p>
+<p><%=element.valenceElectrons%></p>
+<p><%=element.synthetic%></p>
+<p><%=element.type%></p>
+<p><%=element.discoveryDate%></p>
+<p><a href="/scientists/<%=element.discoverer.id%>"><%=element.discoverer.name%></a></p>
+<% for(let i = 0;i<3;i++){ %>
+    <p><%= element.use[i] %></p>
+<% } %>
+
+
+<%-include('partials/footer')%>

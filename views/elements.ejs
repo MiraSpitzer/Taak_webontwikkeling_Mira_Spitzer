@@ -1,0 +1,19 @@
+<%- include('partials/header') %>
+<%- include('search') %>
+    <table>
+        <% for(let i=0;i<elements.length;i++) { %>
+        <tr>
+            <td><a href="elements/<%=elements[i].id%>"><%=elements[i].name%></a></td>
+            <td><%=elements[i].valenceElectrons%></td>
+            <% if(elements[i].synthetic == true) { %>
+                <td>Synthetisch</td>
+            <% } else { %>
+                <td>Natuurlijk</td>
+            <% } %>
+            <td><%=elements[i].type%></td>
+            <td><%=elements[i].discoveryDate%></td>
+       </tr>
+    <% } %>
+    </table>
+
+<%- include('partials/footer') %>

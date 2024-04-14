@@ -20,7 +20,7 @@ app.use(express.static('public'));
 app.get('/',(req,res) => {
     res.type('text/html');
     res.status(200);
-    res.render('index', {elements:elementsArray})
+    res.render('index')
 })
 
 app.get('/elements',(req,res) => {

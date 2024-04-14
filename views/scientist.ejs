@@ -1,10 +1,10 @@
 <%-include ('partials/header') %>
 
 <h1><%=scientist.name%></h1>
-<img height="300px"  src="<%=scientist.imgUrl%>"></img>
+<img height="300px"  src="<%=scientist.imgUrl%>" class="img-thumbnail"></img>
 <p><%=scientist.birthDate%></p>
 <p><%=scientist.passingDate%></p>
 <p><%=scientist.nationality%></p>
-<p><%=scientist.description%></p>
+<p class="well"><%=scientist.description%></p>
 
 <%-include ('partials/footer') %>

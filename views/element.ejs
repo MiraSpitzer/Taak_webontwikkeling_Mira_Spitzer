@@ -1,8 +1,11 @@
 <%-include('partials/header')%>
 
-<img height="50px" width="100px" src="<%=element.imgUrl%>" class="img-rounded"></img>
-<p class="text-bg-secondary"><%=element.name%></p>
-<p class="well"><%=element.description%></p>
+<img class="bg-image"
+style="
+  background-image: url('<%=element.imgUrl%>');
+  height: 100vh;"></img>
+<h1><%=element.name%></h1>
+<p><%=element.description%></p>
 <p><%=element.valenceElectrons%></p>
 <p><%=element.synthetic%></p>
 <p><%=element.type%></p>

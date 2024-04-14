@@ -5,7 +5,7 @@
         "description": "Waterstof is het lichtste element in het heelal. Waterstof komt meestal voor als het twee-atomige molecuul diwaterstof (waterstofgas). Het heeft een veelbelovende toekomst als energiedrager en transportbrandstof. Het is zeer schoon te verbranden. Waterstof dankt zijn naam aan het verbrandingsproduct: stof die water voortbrengt.",
         "valenceElectrons": 1,
         "synthetic": false,
-        "imgUrl": "",
+        "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/nikkel.jpg",
         "type": "niet-metaal",
         "discoveryDate": 1766,
         "discoverer" : {
@@ -15,7 +15,7 @@
             "passingDate": "24-02-1810",
             "nationality": "Brits",
             "description": "Henry Cavendish was een Britse Scheikundige. Hij studeerde van 1749 – 1753 natuurwetenschappen in Cambridge, maar legde geen examens af. Hij vestigde zich in 1753 in Londen, waar hij een privé-laboratorium inrichtte en begon met onderzoek naar gassen. In 1760 werd hij Fellow of the Royal Society. Hij (her)ontdekte waterstof en stikstof. Hoewel hij vele experimenten deed met het ‘gedeflogistoneerde’ deel van lucht (zuurstof dus), bleef hij een overtuigd aanhanger van de flogistontheorie. Hij zag waterstof dan ook niet als een (nieuw) element, maar als “zuivere flogiston”. Hij werkte met een sterk verbeterde eudiometer en bepaalde als eerste de dichtheid van gassen. Hij deed belangrijke experimenten met ‘behulp van elektriciteit’, bijvoorbeeld het onderzoek naar de samenstelling van water. Hij voerde het begrip equivalent in bij reacties tussen zuren en basen en bepaalde met een door hem ontwikkelde torsieslinger de gravitatie en de gemiddelde dichtheid van de aarde.",
-            "imgUrl": ""
+            "imgUrl": "../public/elementImages/Waterstof.jpg"
         },
         "use": ["Brandstof","Kernfusie","Koelmiddel"]
     },
@@ -25,7 +25,7 @@
         "description": "Helium is het kleinste van alle elementen: omdat de kern meer lading heeft dan bij waterstof bevinden de elektronen zich in een iets ‘strakkere’ baan. Helium is een inert, niet reactief, kleurloos mono-atomair gas. Na waterstof is helium het meest voorkomende element van het heelal.",
         "valenceElectrons": 2,
         "synthetic": false,
-        "imgUrl": "",
+        "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/helium.jpg",
         "type": "edelgas",
         "discoveryDate": 1881,
         "discoverer" : {
@@ -35,7 +35,7 @@
             "passingDate": "09-09-1896",
             "nationality": "Italiaans",
             "description": "Luigi Palmieri was een Italiaans natuurkundige. Palmieri studeerde natuurkunde in Napels. Hij werd leraar filosofie en wiskunde aan enkele lycea in Napels. Later werd hij hoogleraar natuurkunde aan het Marinecollege. In 1848 werd hij directeur van het Vesuvius Observatorium. Vanaf 1860 was hij hoogleraar natuurkunde en meteorologie aan de universiteit van Napels en de Landbouwschool. Hij toonde het edelgas helium aan in de lava van de Vesuvius (1881).",
-            "imgUrl": ""
+            "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/helium.jpg"
         },
         "use": ["Vulling voor luchtballon","Lektestgas","Laser"]
     },
@@ -45,7 +45,7 @@
         "description": "Elementair calcium is een grijs, zilverachtig en redelijk hard metaal. Maar het komt als zodanig niet in de natuur voor. In lucht vormt het reactieve metaal spontaan calciumnitride (Ca3N2). Het reageert ook met water en brandt met een geelgroene vlam.",
         "valenceElectrons": 2,
         "synthetic": false,
-        "imgUrl": "",
+        "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/calcium.jpg",
         "type": "metaal",
         "discoveryDate": 1755,
         "discoverer" : {
@@ -55,7 +55,7 @@
             "passingDate": "06-09-1799",
             "nationality": "Schots",
             "description": "Joseph Black was een Schots genees-, natuur- en scheikundige. Hij studeerde in 1746 talen en natuurfilosofie en in 1748 geneeskunde te Glasgow. Hij promoveerde in 1754 in Edinburgh. In 1756 werd hij hoogleraar in Glasgow. Van 1766 – 1799 was hij hoogleraar in Edinburgh. Hij publiceerde in 1756 ‘Nieuwe inzichten in de scheikunde’. Van hem is het begrip ‘latente warmte’ afkomstig, evenals de term ‘fixed air’ voor het gas dat ontstond bij de verhitting van calciumcarbonaat: kooldioxide. Met zijn leerling Daniël Rutherford onderzocht hij de chemische aspecten van de gassen, die bij ontleding van verbindingen ontstaan. Ook de warmte-effecten bij deze reacties werden onderzocht. Hij formuleerde een theorie over smelt- en verdampingswarmte. Black was ervan overtuigd dat warmte, licht, elektriciteit en flogiston niet grijpbare, onweegbare stoffen waren. Hij deed tevens veel onderzoek naar de zouten van de alkali- en aardalkalimetalen. In 1755 ontdekte hij magnesiumcarbonaat als verbinding naast het bekende calciumcarbonaat.",
-            "imgUrl": ""
+            "imgUrl": "../public/elementImages/Waterstof.jpg"
         },
         "use": ["Kunstmest","Gips","Krijt"]
     },
@@ -65,7 +65,7 @@
         "description": "Nikkel is een kenmerkend element in meteorieten, die tot wel twintig procent van het metaal kunnen bevatten. Het is zilverwit, hard, redelijk goed te vervormen en mooi glanzend te poetsen. In het oude China gebruikte men al nikkellegeringen als vervanger van zilver. Bepaalde legeringen met nikkel kennen bijzondere eigenschappen, zoals vormgeheugen en magnetische afscherming. Ongeveer een tiende tot een vijfde van de mensen heeft last van nikkelallergie. Sommige bacteriën benutten energie uit koolstofverbindingen zoals koolstofdioxide en methaan met behulp van nikkel gebaseerde enzymen.",
         "valenceElectrons": 2,
         "synthetic": false,
-        "imgUrl": "",
+        "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/nikkel.jpg",
         "type": "metaal",
         "discoveryDate": 1751,
         "discoverer" : {
@@ -75,7 +75,7 @@
             "passingDate": "19-08-1765",
             "nationality": "Zweeds",
             "description": "Axel Frederic Cronstedt was een Zweeds scheikundige. Hij kreeg tot zijn 16e jaar privé-les. Hij verdiepte zich in vele zaken rond de mijnbouw (onder meer aan de Mijnbouwschool) en studeerde scheikunde aan de universiteit van Uppsala. Van 1746 – 1748 volgde hij de lessen van G. Brandt. Hij werd inspecteur der mijnen en publiceerde een boek over de geschiedenis van de mineralen. In 1753 werd hij lid van de Zweedse Academie van Wetenschappen. Hij verrichte veel onderzoek naar mineralen – onder meer met de blaaspijp -, classificeerde deze en ontwikkelde nieuwe analysemethoden. In 1751 ontdekte hij het element nikkel.",
-            "imgUrl": ""
+            "imgUrl": "../public/elementImages/Waterstof.jpg"
         },
         "use": ["Munten","Tafelbestek","Katalysator"]
     },
@@ -85,7 +85,7 @@
         "description": "Het blauwig witte metaal zink is de grote ijzerbeschermer. Zink is een essentieel element voor dier en mens. Het is onder andere van belang voor de inbouw van ijzer in hemoglobine, voor de botvorming en voor het activeren van enzymen. Een volwassen mens heeft per dag ongeveer tien tot twintig milligram zink nodig.",
         "valenceElectrons": 2,
         "synthetic": false,
-        "imgUrl": "",
+        "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/zink.jpg",
         "type": "metaal",
         "discoveryDate": 1500,
         "discoverer" : {
@@ -105,7 +105,7 @@
         "description": "Zilver heeft van alle metalen de beste geleidbaarheid voor warmte en elektriciteit en het reflecteert licht het best. Je vindt het dus aan de achterkant van spiegels en in elektrische connectoren. Het is ook een gewild materiaal voor sieraden en siervoorwerpen. De donkere aanslag die na verloop van tijd ontstaat is vooral zilversulfide. Zilver is het enige element waarnaar een land vernoemd is: Argentinië.",
         "valenceElectrons": 1,
         "synthetic": false,
-        "imgUrl": "",
+        "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/zilver.jpg",
         "type": "metaal",
         "discoveryDate": -3000,
         "discoverer" : {
@@ -125,7 +125,7 @@
         "description": "In tegenstelling tot fluor, chloor en broom is jood een tamelijk ‘vriendelijk’ halogeen. Het is een onmisbaar sporenelement dat vooral in de schildklier een belangrijke rol vervult bij de productie van hormonen. De radioactieve isotoop jood-131 wordt gebruikt bij de behandeling van schildklierkanker. Oplossingen van jood in alcohol zijn veelgebruikte ontsmettingsmiddelen. Jood is vast bij kamertemperatuur, maar smelt al bij geringe verhitting en vormt dan vrijwel direct een dichte, violette damp.",
         "valenceElectrons": 7,
         "synthetic": false,
-        "imgUrl": "",
+        "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/jood.jpg",
         "type": "niet-metaal",
         "discoveryDate": 1811,
         "discoverer" : {
@@ -145,7 +145,7 @@
         "description": "Het synthetische element roentgenium werd in december 1994 gemaakt in het laboratorium voor kernonderzoek GSI (Gesellschaft für Schwerionenforschung) in Darmstadt, door beschieting van bismut met een bundel nikkelkernen. De naam is een eerbetoon aan de natuurkundige Wilhelm Röntgen.",
         "valenceElectrons": 2,
         "synthetic": true,
-        "imgUrl": "",
+        "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/roentgenium.jpg",
         "type": "metaal",
         "discoveryDate": 1994,
         "discoverer" : {
@@ -165,7 +165,7 @@
         "description": "Curium is een zeer radioactief metaal dat in de natuur zo goed als niet voorkomt. Het wordt gemaakt in nucleaire reactoren door de beschieting van plutonium met neutronen. Het is vernoemd naar de pioniers van de radiochemie, Marie en Pierre Curie.",
         "valenceElectrons": 2,
         "synthetic": true,
-        "imgUrl": "",
+        "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/curium.jpg",
         "type": "metaal",
         "discoveryDate": 1944,
         "discoverer" : {
@@ -185,7 +185,7 @@
         "description": "Kernfysici uit Rusland en Amerika kondigden in 2010 de synthese van element 117 aan, uitgevoerd in het Flerov Instituut voor kernonderzoek in Dubna (Rusland).",
         "valenceElectrons": 7,
         "synthetic": true,
-        "imgUrl": "",
+        "imgUrl": "https://raw.githubusercontent.com/MiraSpitzer/Taak_webontwikkeling_Mira_Spitzer/main/public/elementImages/tenesinne.jpg",
         "type": "metaal",
         "discoveryDate": 2010,
         "discoverer" : {
@@ -199,4 +199,7 @@
         },
         "use": ["Dit niet in de natuur voorkomende element heeft geen toepassingen.","",""]
     }
+    //git add -A
+    //git commit -m "message"
+    //git push
 ]

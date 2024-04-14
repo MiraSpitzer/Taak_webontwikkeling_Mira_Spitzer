@@ -1,6 +1,13 @@
 <%- include('partials/header') %>
 <%- include('search') %>
     <table>
+        <tr>
+        <th><button id="sortName" onclick="sort(0, 1)">Naam</button></th>
+        <th><button id="sortValenceElectrons" onclick="sort(1, 2)">Valentie-elektronen</button></th>
+        <th><button id="sortSynthetic" onclick="sort(2,3)">Synthetisch/Natuurlijk</button></th>
+        <th><button id="sortType" onclick="sort(3, 4)">Type</button></th>
+        <th><button id="sortDiscoveryDate" onclick="sort(4,5)">Ontdekt in</button></th>
+        </tr>
         <% for(let i=0;i<elements.length;i++) { %>
         <tr>
             <td><a href="elements/<%=elements[i].id%>"><%=elements[i].name%></a></td>
@@ -15,5 +22,36 @@
        </tr>
     <% } %>
     </table>
+    <script>
+    // Set all directions as if it's descending, this way when clicking first time it will set to ascending
+    let directions = [false, false, false, false, false];
+
+    function sort(columnIndex, child)   {
+    let table = document.querySelector("table");
+    let rows = Array.from(table.querySelectorAll("tr"));
+        rows.shift(); // Remove the header row from the array
+
+    rows.sort(function(a, b) {
+    let nameA = a.querySelector(`td:nth-child(${child})`).innerText;
+    let nameB = b.querySelector(`td:nth-child(${child})`).innerText;
+    if(directions[columnIndex] == false){
+        return nameA.localeCompare(nameB);
+    } else {
+        return nameB.localeCompare(nameA);
+    }
+    });
+
+    while (table.rows.length > 1) {
+            table.deleteRow(1);
+        } // Clear the table
+    rows.forEach(function(row) {
+    table.appendChild(row); // Append the sorted rows back to the table
+    });
+
+    // Toggle the direction for the next sort
+    directions[columnIndex] = !directions[columnIndex];
+    };
+</script>
+
 
 <%- include('partials/footer') %>

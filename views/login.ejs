@@ -1,0 +1,11 @@
+<%-include('partials/header')%>
+
+<form id="loginform" action="/login" method="POST">
+  <label for="email" class="loginlabel">Gebruikersnaam</label>
+  <input type="email" id="email" name="email">
+  <label for="password" class="loginlabel">Wachtwoord</label>
+  <input type="password" id="password" name="password">
+  <button type="submit" id="loginbtn">Inloggen</button>
+</form>
+
+<%-include('partials/footer')%>

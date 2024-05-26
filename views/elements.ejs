@@ -1,18 +1,18 @@
 <%- include('partials/header') %>
 <%- include('search') %>
-<div class="table-responsive">
-    <table class="table-hover">
+
+    <table>
         <tr>
-        <th class="thead-light"></th>
-        <th class="thead-light"><button class="btn btn-outline-dark" id="sortName" onclick="sort(1, 2)">Naam</button></th>
-        <th class="thead-light"><button class="btn btn-outline-dark" id="sortValenceElectrons" onclick="sort(2, 3)">Valentie-elektronen</button></th>
-        <th class="thead-light"><button class="btn btn-outline-dark" id="sortSynthetic" onclick="sort(3,4)">Synthetisch/Natuurlijk</button></th>
-        <th class="thead-light"><button class="btn btn-outline-dark" id="sortType" onclick="sort(4, 5)">Type</button></th>
-        <th class="thead-light"><button class="btn btn-outline-dark" id="sortDiscoveryDate" onclick="sort(5,6)">Ontdekt in</button></th>
+        <th></th>
+        <th><button id="sortName" onclick="sort(1, 2)">Naam</button></th>
+        <th><button id="sortValenceElectrons" onclick="sort(2, 3)">Valentie-elektronen</button></th>
+        <th><button id="sortSynthetic" onclick="sort(3,4)">Synthetisch/Natuurlijk</button></th>
+        <th><button id="sortType" onclick="sort(4, 5)">Type</button></th>
+        <th><button id="sortDiscoveryDate" onclick="sort(5,6)">Ontdekt in</button></th>
         </tr>
         <% for(let i=0;i<elements.length;i++) { %>
         <tr>
-            <td><img width="80px" height="80px" src="<%=elements[i].imgUrl%>" class="rounded-circle img-thumbnail" ></img></td>
+            <td><a href="elements/<%=elements[i].id%>"><img height="70px" src="<%=elements[i].imgUrl%>"></img></a></td>
             <td><a href="elements/<%=elements[i].id%>"><%=elements[i].name%></a></td>
             <td><%=elements[i].valenceElectrons%></td>
             <% if(elements[i].synthetic == true) { %>
@@ -25,7 +25,7 @@
        </tr>
     <% } %>
     </table>
-</div>
+
     <script>
     // Set all directions as if it's descending, this way when clicking first time it will set to ascending
     let directions = [false, false, false, false, false, false];

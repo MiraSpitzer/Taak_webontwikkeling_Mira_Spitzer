@@ -1,19 +1,31 @@
 <%-include('partials/header')%>
 
-<img class="bg-image"
-style="
-  background-image: url('<%=element.imgUrl%>');
-  height: 100vh;"></img>
+<img src="<%=element.imgUrl%>"></img>
 <h1><%=element.name%></h1>
 <p><%=element.description%></p>
-<p><%=element.valenceElectrons%></p>
-<p><%=element.synthetic%></p>
+<p>Aantal valentie-elektronen: <%=element.valenceElectrons%></p>
+<% if(element.synthetic == true) { %>
+  <p>Synthetisch</p>
+<% } else { %>
+  <p>Natuurlijk</p>
+<% } %>
 <p><%=element.type%></p>
-<p><%=element.discoveryDate%></p>
+<p>Ontdekt in <%=element.discoveryDate%></p>
 <p><a href="/scientists/<%=element.discoverer.id%>"><%=element.discoverer.name%></a></p>
 <% for(let i = 0;i<3;i++){ %>
     <p><%= element.use[i] %></p>
 <% } %>
+<form action="/elements/<%=element.id%>/update" method="post">
+    <input type="text" name="name" value="<%=element.name%>">
+    <input type="number" name="valence" value="<%=element.valenceElectrons%>">
+    <select name="type">
+      <option value="metaal" <%= element.type === 'metaal' ? 'selected' : '' %>>Metaal</option>
+      <option value="niet-metaal" <%= element.type === 'niet-metaal' ? 'selected' : '' %>>Niet-metaal</option>
+      <option value="edelgas" <%= element.type === 'edelgas' ? 'selected' : '' %>>Edelgas</option>
+  </select>
+    <input type="text" name="discoveryDate" value="<%=element.discoveryDate%>">
+    <button type="submit">Update</button>
+</form>
 
 
 <%-include('partials/footer')%>
